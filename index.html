@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Satellite Ground Track Project</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; max-width: 800px; margin: auto; background: #f9f9f9; }
+    h1 { color: #1a73e8; }
+    img { width: 100%; max-width: 600px; border: 1px solid #ccc; border-radius: 6px; }
+    a.button { display: inline-block; margin: 1em 0; padding: 0.6em 1.2em; background: #1a73e8; color: white; text-decoration: none; border-radius: 5px; }
+    ul li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>🚀 Satellite Ground Track Project</h1>
+  <p>This website visualizes a satellite ground track based on orbital elements derived from a state vector.</p>
+
+  <h2>📊 Ground Track Animation</h2>
+  <img src="satellite_animation.gif" alt="Satellite Orbit Animation">
+
+  <h2>📂 Downloads</h2>
+  <ul>
+    <li><a href="Perfect_Satellite_Ground_Track.csv" download>Download Ground Track CSV</a></li>
+    <li><a href="Satellite_Ground_Track.kml" download>Download KML for Google Earth</a></li>
+  </ul>
+
+  <h2>🔢 Orbital Period</h2>
+  <p>The calculated orbital period is approximately <strong>14.94 hours</strong> using Kepler's Third Law.</p>
+
+  <h2>📘 Question 1: Orbital Elements and Path Calculation</h2>
+  <p>The satellite's orbit was calculated using orbital elements (a, e, i, RAAN, ω, M₀). These were propagated using Kepler’s equation and transformed into lat/lon considering Earth rotation.</p>
+
+  <h2>🌍 Question 2: Ground Track Map</h2>
+  <p>The satellite’s path was visualized over a world map with grid, marker, and terminator line. An animated GIF shows the full orbit.</p>
+
+  <h2>📦 Question 3: Data Outputs</h2>
+  <ul>
+    <li>CSV of lat/lon/time</li>
+    <li>KML file for Google Earth</li>
+    <li>GIF animation of orbit</li>
+  </ul>
+
+  <footer>
+    <hr>
+    <p>Created by Vesh | Hosted on GitHub Pages</p>
+  </footer>
+</body>
+</html>
